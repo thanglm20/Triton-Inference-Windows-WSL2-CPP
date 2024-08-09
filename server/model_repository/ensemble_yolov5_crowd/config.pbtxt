@@ -1,0 +1,59 @@
+name: "ensemble_yolov5_crowd"
+platform: "ensemble"
+max_batch_size: 256
+input [
+  {
+    name: "INPUT"
+    data_type: TYPE_UINT8
+    dims: [737280]
+  }
+]
+output [
+  {
+    name: "OUTPUT"
+    data_type: TYPE_FP32
+    dims: [1, -1, 6]
+  }
+]
+ensemble_scheduling {
+  step [
+    {
+      model_name: "preprocess_yolov5_crowd"
+      model_version: -1
+      input_map {
+        key: "INPUT_0"
+        value: "INPUT"
+      }
+      output_map {
+        key: "OUTPUT_0"
+        value: "processed_image"
+      }
+    },
+    {
+      model_name: "yolov5_crowd"
+      model_version: -1
+      input_map {
+        key: "input"
+        value: "processed_image"
+      }
+      output_map {
+        key: "output"
+        value: "yolo_output"
+      }
+    },
+     {
+      model_name: "postprocess_yolov5_crowd"
+      model_version: -1
+      input_map {
+        key: "INPUT_0"
+        value: "yolo_output"
+      }
+      output_map {
+        key: "OUTPUT_0"
+        value: "OUTPUT"
+      }
+    }
+  ]
+}
+
+

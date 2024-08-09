@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorDef>
+	<Enable>1</Enable>
+	<ExtractClassList>5,6,7,8,9,10,11,12,13,45,14,46,15,47,16,17,48,18,49,19,50,20,44,22,23,24,25,26,27,54,55,56</ExtractClassList>
+	<Lists>
+		<!-- Black colors -->
+		<Color>
+			<ID>1</ID>
+			<Name>Black</Name>
+			<R>0</R> <G>0</G> <B>0</B>
+			<LowerHSV>
+				<H>0</H> <S>0</S> <V>0</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>180</H> <S>255</S> <V>66</V>
+			</UpperHSV>
+		</Color>
+		<!-- Gray colors -->
+		<Color>
+			<ID>2</ID>
+			<Name>Gray</Name>
+			<R>128</R> <G>128</G> <B>128</B>
+			<LowerHSV>
+				<H>0</H> <S>0</S> <V>65</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>180</H> <S>66</S> <V>166</V>
+			</UpperHSV>
+		</Color>
+		<!-- White colors -->
+		<Color>
+			<ID>3</ID>
+			<Name>White</Name>
+			<R>255</R> <G>255</G> <B>255</B>
+			<LowerHSV>
+				<H>0</H> <S>0</S> <V>166</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>180</H> <S>60</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Red colors -->
+		<Color>
+			<ID>4</ID>
+			<Name>Red</Name>
+			<R>255</R> <G>0</G> <B>0</B>
+			<LowerHSV>
+				<H>0</H> <S>178</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>6</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+			<LowerHSV>
+				<H>171</H> <S>178</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>180</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Orange colors -->
+		<Color>
+			<ID>5</ID>
+			<Name>Orange</Name>
+			<R>255</R> <G>94</G> <B>0</B>
+			<LowerHSV>
+				<H>6</H> <S>39</S> <V>178</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>20</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Brown colors -->
+		<Color>
+			<ID>6</ID>
+			<Name>Brown</Name>
+			<R>128</R> <G>128</G> <B>128</B>
+			<LowerHSV>
+				<H>6</H> <S>39</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>90</H> <S>255</S> <V>178</V>
+			</UpperHSV>
+		</Color>
+		<!-- Yellow colors -->
+		<Color>
+			<ID>7</ID>
+			<Name>Yellow</Name>
+			<R>255</R> <G>228</G> <B>0</B>
+			<LowerHSV>
+				<H>20</H> <S>39</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>32</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Green colors -->
+		<Color>
+			<ID>8</ID>
+			<Name>Green</Name>
+			<R>0</R> <G>255</G> <B>0</B>
+			<LowerHSV>
+				<H>32</H> <S>39</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>85</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Blue colors -->
+		<Color>
+			<ID>9</ID>
+			<Name>Blue</Name>
+			<R>0</R> <G>0</G> <B>255</B>
+			<LowerHSV>
+				<H>85</H> <S>39</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>110</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Navy colors -->
+		<Color>
+			<ID>10</ID>
+			<Name>Navy</Name>
+			<R>5</R> <G>0</G> <B>153</B>
+			<LowerHSV>
+				<H>110</H> <S>39</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>127</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Purple colors -->
+		<Color>
+			<ID>11</ID>
+			<Name>Purple</Name>
+			<R>217</R> <G>65</G> <B>197</B>
+			<LowerHSV>
+				<H>127</H> <S>39</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>155</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+		<!-- Pink colors -->
+		<Color>
+			<ID>12</ID>
+			<Name>Pink</Name>
+			<R>217</R> <G>65</G> <B>197</B>
+			<LowerHSV>
+				<H>0</H> <S>0</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>6</H> <S>178</S> <V>255</V>
+			</UpperHSV>
+			<LowerHSV>
+				<H>171</H> <S>39</S> <V>39</V>
+			</LowerHSV>
+			<UpperHSV>
+				<H>180</H> <S>255</S> <V>255</V>
+			</UpperHSV>
+		</Color>
+	</Lists>
+</ColorDef>

@@ -1,0 +1,7 @@
+*.onnx
+*.engine
+**/TritonClientCppVs2019/TritonClient/outputs/
+**/TritonClientCppVs2019/TritonClient/outputs/
+**/TritonClientCppVs2019/TritonClient/ColorExtractor/x64/
+**/TritonClientCppVs2019/TritonClient/.vs/
+**/TritonClientCppVs2019/TritonClient/Yolov5Crowd/x64/

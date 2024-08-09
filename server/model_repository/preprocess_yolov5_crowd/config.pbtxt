@@ -1,0 +1,25 @@
+name: "preprocess_yolov5_crowd"
+backend: "python"
+max_batch_size: 256 
+input [
+{
+    name: "INPUT_0"
+    data_type: TYPE_UINT8
+    dims: [737280]
+}
+]
+ 
+output [
+{
+    name: "OUTPUT_0"
+    data_type: TYPE_FP32
+    dims: [3, 384, 640]
+}
+]
+
+instance_group [ 
+    { 
+        count: 1
+        kind: KIND_CPU
+    }
+]

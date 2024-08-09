@@ -1,0 +1,4 @@
+numpy==1.24.4
+torchvision==0.14.1
+tritonclient==2.41.0
+opencv-python==4.8.1.78

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="triton_client_libs">
+      <UniqueIdentifier>{d94ea6c9-e859-4aa1-bbf7-f91a67642b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="triton_client_libs\protobuf_cpp">
+      <UniqueIdentifier>{608c41ed-483b-483b-8f29-c17d68d2b823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="triton_client_libs\protobuf">
+      <UniqueIdentifier>{222a90df-77a7-4bd7-a88a-f5f6893bb8e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{73158740-ee24-49a0-b824-661fb1d47685}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\cencode.h">
+      <Filter>triton_client_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\common.h">
+      <Filter>triton_client_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\grpc_client.h">
+      <Filter>triton_client_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\ipc.h">
+      <Filter>triton_client_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\TritonInferenceClient.h">
+      <Filter>triton_client_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\protobuf_cpp\grpc_service.grpc.pb.h">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\protobuf_cpp\grpc_service.pb.h">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\protobuf_cpp\model_config.grpc.pb.h">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triton_client_libs\protobuf_cpp\model_config.pb.h">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\args_parser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ezxml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\stb_image.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\stb_image_write.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YoloCrowdClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CrowdDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\image_utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadWorker.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\cencode.c">
+      <Filter>triton_client_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\common.cc">
+      <Filter>triton_client_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\grpc_client.cc">
+      <Filter>triton_client_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\TritonInferenceClient.cpp">
+      <Filter>triton_client_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\protobuf_cpp\grpc_service.grpc.pb.cc">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\protobuf_cpp\grpc_service.pb.cc">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\protobuf_cpp\model_config.grpc.pb.cc">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triton_client_libs\protobuf_cpp\model_config.pb.cc">
+      <Filter>triton_client_libs\protobuf_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\ezxml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="YoloCrowdClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CrowdDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_multi_cameras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\triton_client_libs\protobuf\grpc_service.proto">
+      <Filter>triton_client_libs\protobuf</Filter>
+    </None>
+    <None Include="..\triton_client_libs\protobuf\health.proto">
+      <Filter>triton_client_libs\protobuf</Filter>
+    </None>
+    <None Include="..\triton_client_libs\protobuf\model_config.proto">
+      <Filter>triton_client_libs\protobuf</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\triton_client_libs\protobuf\CMakeLists.txt">
+      <Filter>triton_client_libs\protobuf</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

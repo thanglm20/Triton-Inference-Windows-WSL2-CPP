@@ -1,0 +1,29 @@
+name: "clothes_segmentation",
+platform: "tensorrt_plan",
+backend: "tensorrt",
+max_batch_size: 0,
+input: [
+  {
+    name: "intput",
+    data_type: TYPE_FP32,
+    dims: [1, 3, 256, 256]
+  }
+],
+output: [
+  {
+    name: "output",
+    data_type: TYPE_INT32,
+    dims: [256, 256, 1]
+  }
+],
+instance_group [
+    {
+      count: 4
+      kind: KIND_GPU
+    }
+  ]
+
+response_cache {
+enable: False
+}
+default_model_filename: "densenet_1x3x256x256.engine"

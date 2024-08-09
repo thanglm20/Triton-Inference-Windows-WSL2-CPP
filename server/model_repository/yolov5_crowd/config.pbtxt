@@ -1,0 +1,47 @@
+name: "yolov5_crowd",
+platform: "tensorrt_plan",
+backend: "tensorrt",
+max_batch_size: 0,
+input: [
+  {
+    name: "input",
+    data_type: TYPE_FP32,
+    dims: [1, 3, 384, 640]
+  }
+],
+output: [
+  {
+    name: "onnx::Sigmoid_518",
+    data_type: TYPE_FP32,
+    dims: [1, 3, 48, 80, 7]
+  }
+],
+output: [
+  {
+    name: "onnx::Sigmoid_757",
+    data_type: TYPE_FP32,
+    dims: [1, 3, 24, 40, 7]
+  }
+],
+output: [
+  {
+    name: "onnx::Sigmoid_995",
+    data_type: TYPE_FP32,
+    dims: [1, 3, 12, 20, 7]
+  }
+],
+output: [
+  {
+    name: "output",
+    data_type: TYPE_FP32,
+    dims: [1, 15120, 7]
+  }
+],
+instance_group [
+    {
+      count: 1
+      kind: KIND_GPU
+    }
+  ]
+
+default_model_filename: "yolov5_crowd_1x3x384x640.engine"
