@@ -1,4 +1,7 @@
 # Client programs testing Triton Inference Server 
+This project includes: 
+- Triton Server Inference deployed on Windows WSL 2 for some models: Yolov5, Segmentation, Color Extraction, ...
+- Triton Client using gRPC, C++ in VS2019
 
 ## Start Triton Server
 ```
